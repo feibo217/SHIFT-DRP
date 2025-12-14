@@ -1,0 +1,4 @@
+epoch,train_loss,HSIC_loss,val_loss,valid_AUC,valid_PRC,valid_Accuracy,valid_Precision,valid_Sensitivity,valid_Specificity,valid_F1,valid_Recall
+
+round0
+epoch,train_loss,HSIC_loss,val_loss,valid_AUC,valid_PRC,valid_Accuracy,valid_Precision,valid_Sensitivity,valid_Specificity,valid_F1,valid_Recall
