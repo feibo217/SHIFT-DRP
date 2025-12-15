@@ -1,14 +1,14 @@
 
 $$
-\begin{flalign}
-& \mathrm{\Huge SHIFT-DRP:} & \nonumber
-\end{flalign}
+/begin{flalign}
+& /mathrm{/Huge SHIFT-DRP:} & /nonumber
+/end{flalign}
 $$
 
 $$
-\begin{flalign}
-& \mathrm{\LARGE Dynamic \,Multi\,Scale\,Active\,Learning\,for\,Response} & \nonumber
-\end{flalign}
+/begin{flalign}
+& /mathrm{/LARGE Dynamic /,Multi/,Scale/,Active/,Learning/,for/,Response} & /nonumber
+/end{flalign}
 $$
 
 # Systm Requirements
@@ -55,9 +55,9 @@ $ pip install numpy==1.26.4
 # Data Preparation
 
 ```
-1.Extract the file 'Data\processed_data\GDSC2_AUC.rar' to the path 'Data\processed_data\'
+1.Extract the file 'Data/processed_data/GDSC2_AUC.rar' to the path 'Data/processed_data/'
 
-2.Use the data located in the 'Data\processed_data\GDSC2_AUC\split_data' path to extract drug representations using the KPGT pre-trained model (refer to https://github.com/lihan97/KPGT).
+2.Use the data located in the 'Data/processed_data/GDSC2_AUC/split_data' path to extract drug representations using the KPGT pre-trained model (refer to https://github.com/lihan97/KPGT).
 The final directory structure will be:
     Data/
     └── KPGT_npz_file/
@@ -74,6 +74,7 @@ The final directory structure will be:
 Run SHIFT-DRP on the GDSC2 dataset: python main.py
 (You can adjust the running parameters in 'config/config.yml')
 
-The running results will be saved in: 'checkpoints\AL'
+The running results will be saved in: 'checkpoints/AL'
 ```
+
 
